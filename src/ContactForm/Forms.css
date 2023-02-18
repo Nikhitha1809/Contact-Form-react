@@ -1,0 +1,195 @@
+.bg-container{
+    margin-top:10px;
+}
+*{
+    text-align: center;
+}
+.labelColor{
+    color: red;
+}
+.input-label{
+    padding-bottom: 10px;
+    width: 50%;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.flight-img{
+    width: 400px;
+    height: 80vh;
+}
+.bg-inner{
+    margin: 60px;
+}
+.heading{
+    text-align: center;
+    color: green;
+}
+.form-container{
+    margin-left: 37%;
+}
+.label{
+    color: red;
+}
+*{
+    margin:0;
+	padding:0;
+	border:0;
+}
+/* *{
+    text-align: center;
+} */
+div{
+    padding: 20px;
+}
+.heading-reg{
+    text-align: center;
+}
+.name-input{
+    margin-right:30px;
+    /* margin-bottom: 0px; */
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    padding-left: 0%;
+    width:100%;
+}
+input{
+    height: 30px;
+    width: 90%;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    padding-left: 0%;
+}
+input:invalid{
+    border:2px solid red;
+    animation: shake 0.2s 2;
+}
+@keyframes shake{
+    25%{
+        translate: 6px 0;
+        
+    }
+    50%{
+        translate: -6px 0;
+    }
+    75%{
+        translate: 6px 0;
+    }
+}
+label{
+    color: red;
+}
+.card{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    margin-top: 17%;
+    background-color: white;
+
+}
+/* .submitbtn{
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+  
+} */
+.submitbtn{
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    background-color: #8A6F97;
+    
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    margin-top: 2%;
+}
+.submitbtn:hover{
+    box-shadow: 0 0 0px #8A6F97,0 0 15px #8A6F97, 0 0 0px #8A6F97, 0 0 15px #8A6F97;
+}
+.back-btn{
+    font-size: 18px;
+}
+.print-btn{
+    height: 40px;
+    width: 100px;
+    margin-top:20px;
+    color: rgba(255,255,255, .6);
+    color: #444;
+    border: none;
+
+}
+.print-btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.modal{
+    /* padding: 10px, 20px; */
+    display:contents;
+    /* margin: 100px auto 0; */
+    font-size: 18px;
+}
+.modal, .overlay{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    padding:20%;
+}
+.overlay{
+    background:rgba(49,49,49,0.8);
+}
+.image{
+    width: 200px;
+    height: 180px;
+    /* filter: brightness(2000%); */
+}
+.image-card{
+    margin-left: 15%;
+}
+.dtls{
+    padding-left: 3%;
+    left:0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+.line-card{
+    /* border-color: black;
+    border-width: 3px;
+    border-style: dotted; */
+    border: 1px solid #444;
+    /* margin:5px; */
+    padding: 0%;
+}
+.modal-content{
+    position: absolute;
+    width:60%;
+    left:50%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    line-height: 1.4;
+    padding: none;
+}
+.download-btn{
+    background-color: rgb(151, 197, 235);
+    border: none;
+}
+.close-btn{
+    border: none;
+}
